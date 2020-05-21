@@ -1,13 +1,13 @@
 # 1. ascending order
 def sort_array_asc(array)
-  array.sort  #sort puts nums in order. ascending order = in order. 
+  array.sort  #sort puts nums in order. ascending order = in order.
 end
 sort_array_asc([25, 7, 1]) #=>[1,7,25]
 
  # 2. descending order
 def sort_array_desc(array)
   array.sort do | left, right|
-    right <=> left
+    right <=> left #right to left is descending order.
   end
 end
 sort_array_desc([25, 7, 14]) #=>[25, 14, 7]
@@ -15,7 +15,7 @@ sort_array_desc([25, 7, 14]) #=>[25, 14, 7]
 # 3. array in ascending order sorted by number of chars in string.
 def sort_array_char_count(array)
   array.sort do |left, right|
-    left.length <=> right.length
+    left.length <=> right.length  #cat.length  = 3, dogs.length = 4, horses.length = 5. 
   end
 end
 sort_array_char_count(["dogs", "cat", "Horses"]) #=>["cat", "dogs", "Horses"]
