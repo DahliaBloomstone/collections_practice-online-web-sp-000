@@ -1,6 +1,6 @@
 # 1. ascending order
 def sort_array_asc(array)
-  array.sort
+  array.sort  #sort puts nums in order. ascending order = in order. 
 end
 sort_array_asc([25, 7, 1]) #=>[1,7,25]
 
