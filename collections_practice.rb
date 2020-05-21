@@ -46,12 +46,12 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
-    # can also use the select method
-    # array.select do |word|
-    # word[0] == "a"
-    # end
 end
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) #["apple", "avis", "arlo", "ascot"]
+# can also use the select method
+# array.select do |word|
+# word[0] == "a"
+# end
 
 # 8. sum all numbers.
 def sum_array(array)
