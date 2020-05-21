@@ -33,15 +33,15 @@ def reverse_array(array)
 end
 reverse_array(["blake", "ashley", "scott"]) #["scott", "ashley", "blake"]
 
-# 6. change the third character of each element to a dollar sign. 
+# 6. change the third character of each element to a dollar sign.
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
   end
 end
-
 kesha_maker(["blake", "ashley", "scott"]) #["bl$ke", "as$ley", "sc$tt"]
 
+# 7. find all words that begin with "a" in the array. 
 def find_a(array)
   array.find_all do |word|
     word[0] == "a"
