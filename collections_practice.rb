@@ -41,18 +41,16 @@ def kesha_maker(array)
 end
 kesha_maker(["blake", "ashley", "scott"]) #["bl$ke", "as$ley", "sc$tt"]
 
-# 7. find all words that begin with "a" in the array. 
+# 7. find all words that begin with "a" in the array.
 def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
-
-  # using select method
+  # can also use the select method
     # array.select do |word|
     #   word[0] == "a"
     # end
 end
-
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) #["apple", "avis", "arlo", "ascot"]
 
 def sum_array(array)
