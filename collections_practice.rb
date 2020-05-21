@@ -25,7 +25,7 @@ def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
 end
-swap_elements(["blake", "ashley", "scott"]) #=>["blake", "scott", "ashley"]
+swap_elements(["blake", "ashley", "scott"]) #=>["blake", "scott", "ashley"] #call method at the end.
 
 # 5. reverse the order of an array of integers.
 def reverse_array(array)
