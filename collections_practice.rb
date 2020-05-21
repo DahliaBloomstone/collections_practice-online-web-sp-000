@@ -35,7 +35,7 @@ reverse_array(["blake", "ashley", "scott"]) #=>["scott", "ashley", "blake"]
 
 # 6. change the third character of each element to a dollar sign.
 def kesha_maker(array)
-  array.each do |item|
+  array.each do |item| #each in directions.
     item[2] = "$"
   end
 end
