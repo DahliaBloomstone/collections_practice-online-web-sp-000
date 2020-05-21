@@ -46,9 +46,9 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
-  # can also use the select method
+    # can also use the select method
     # array.select do |word|
-    #   word[0] == "a"
+    # word[0] == "a"
     # end
 end
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) #["apple", "avis", "arlo", "ascot"]
@@ -63,7 +63,7 @@ def sum_array(array)
 end
 sum_array([11,4,7,8,9,100,134]) #273
 
-# 9. add an "s" to each word in the array except for the second element. 
+# 9. add an "s" to each word in the array except for the second element.
 def add_s(array)
   array.collect do |word|
     if array[1] == word
