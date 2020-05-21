@@ -10,15 +10,15 @@ def sort_array_desc(array)
     right <=> left #right to left is descending order.
   end
 end
-sort_array_desc([25, 7, 14]) #=>[25, 14, 7]
+sort_array_desc([25, 7, 14]) #=>[25, 14, 7] #call method at the end.
 
 # 3. array in ascending order sorted by number of chars in string.
 def sort_array_char_count(array)
-  array.sort do |left, right|  #sort is left to right, ascending order. 
+  array.sort do |left, right|  #sort is left to right, ascending order.
     left.length <=> right.length  #cat.length  = 3, dogs.length = 4, horses.length = 5.
   end
 end
-sort_array_char_count(["dogs", "cat", "Horses"]) #=>["cat", "dogs", "Horses"]
+sort_array_char_count(["dogs", "cat", "Horses"]) #=>["cat", "dogs", "Horses"] #call method at the end.
 
 # 4. swap the second and third elements.
 def swap_elements(array)
