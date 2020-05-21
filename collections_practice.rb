@@ -27,13 +27,13 @@ def swap_elements(array)
 end
 swap_elements(["blake", "ashley", "scott"]) #["blake", "scott", "ashley"]
 
-# 5. reverse the order of an array of integers. 
+# 5. reverse the order of an array of integers.
 def reverse_array(array)
   array.reverse
 end
-
 reverse_array(["blake", "ashley", "scott"]) #["scott", "ashley", "blake"]
 
+# 6. change the third character of each element to a dollar sign. 
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
