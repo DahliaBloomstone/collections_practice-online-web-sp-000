@@ -53,6 +53,7 @@ def find_a(array)
 end
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) #["apple", "avis", "arlo", "ascot"]
 
+# 8. sum all numbers.
 def sum_array(array)
   sum = 0
   array.each do |num|
@@ -60,20 +61,9 @@ def sum_array(array)
   end
   sum
 end
-  # using reduce method
-    # array.reduce(:+)
-
-  # using inject method (short)
-     # array.inject(:+)
-
-  # using inject method (long)
-     # array.inject do |sum,x|
-     #  sum + x
-     # end
-
-
 sum_array([11,4,7,8,9,100,134]) #273
 
+# 9. add an "s" to each word in the array except for the second element. 
 def add_s(array)
   array.collect do |word|
     if array[1] == word
