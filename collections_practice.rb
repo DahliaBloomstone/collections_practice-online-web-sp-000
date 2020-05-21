@@ -43,7 +43,7 @@ kesha_maker(["blake", "ashley", "scott"]) #=>["bl$ke", "as$ley", "sc$tt"]
 
 # 7. find all words that begin with "a" in the array.
 def find_a(array)
-  array.find_all do |word|
+  array.find_all do |word| #find_all method.
     word[0] == "a"
   end
 end
@@ -65,7 +65,7 @@ sum_array([11,4,7,8,9,100,134]) #=>273
 
 # 9. add an "s" to each word in the array except for the second element.
 def add_s(array)
-  array.collect do |word|
+  array.collect do |word| #use collect to create a new array with modified elements.
     if array[1] == word
       word
     else
