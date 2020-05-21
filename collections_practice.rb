@@ -14,8 +14,8 @@ sort_array_desc([25, 7, 14]) #=>[25, 14, 7]
 
 # 3. array in ascending order sorted by number of chars in string.
 def sort_array_char_count(array)
-  array.sort do |left, right|
-    left.length <=> right.length  #cat.length  = 3, dogs.length = 4, horses.length = 5. 
+  array.sort do |left, right|  #sort is left to right, ascending order. 
+    left.length <=> right.length  #cat.length  = 3, dogs.length = 4, horses.length = 5.
   end
 end
 sort_array_char_count(["dogs", "cat", "Horses"]) #=>["cat", "dogs", "Horses"]
